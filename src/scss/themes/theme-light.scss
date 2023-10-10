@@ -1,6 +1,6 @@
 body[data-theme="light"] {
-    @import '../..ht-slider';
-
+    @import '../src/scss/light-slider.scss';
+ 
     .slider-tab {
        background-color: #D7CAAA;
     }
