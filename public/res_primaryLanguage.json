@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello!",
+      "description": "I'm Reece Calvin. I'm a data scientist specializing in baseball analytics. I'm currently working with Northeastern Baseball and the Hiroshima Toyo Carp. As a Data Analyst at Hiroshima Toyo Carp, I apply my machine learning and problem-solving skills to help the team optimize its strategy, player development, data engineering, and R&D.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,99 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Mark Chain Lineup Simulator",
+        "startDate": "2023",
+        "description": "Created a Markov-based baseball lineup simulator. Takes in both the lineup and the opposing pitcher and simulates the game 1,500 times. Outputs the average runs scored per game. Outperformed betting markets for MLB games in 2023.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/Markov Chain Simulator/lineup.jpg",
+          "images/portfolio/Markov Chain Simulator/markov.jpg"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-pycharm-plain",
+            "name": "Pycharm"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Pitch Grader",
+        "startDate": "2022",
+        "description": "Created a baseball pitch grader. It started as an independent project, but was later used by the Hiroshima Toyo Carp. It uses a neural network to grade pitches based on their movement and velocity. It was used to help decide the starting rotation.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/pitchgrader/p1.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter"
+          },
+          {
+            "class": "devicon-pycharm-plain",
+            "name": "Pycharm"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Bullpen Usage Score",
+        "startDate": "2021",
+        "description": "One of the first projects I was working on with the Huskies. I calculated the leverage index of each situation and used that to determine the optimal bullpen usage. I compared that with the actual bullpen usage and relayed the results to the coaching staff.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/bullpen usage/p1.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Northeastern Univeristy Baseball",
+        "title": "Data Analyst",
+        "years": "09.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Python, Jupyter, PyCharm"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Lineup Simulator",
+          "Pitch Grader",
+          "Stolen Base Thresholds",
+          "Bunt Thresholds",
+          "Bullpen Optimization",
+          "Swing Decisions"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Hiroshima Toyo Carp",
+        "title": "Data Analyst",
+        "years": "07.2023 - present",
         "mainTech": [
-          "Angular 7/8"
+          "Python, Jupyter, PyCharm"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Lineup Simulator",
+            "Pitch Grader",
+            "Stolen Base Thresholds",
+            "Bunt Thresholds",
+            "Bullpen Optimization",
+            "Swing Decisions",
+            "Player Development",
+            "Data Engineering",
+            "R&D"
+
         ]
       }
     ]

@@ -1,115 +1,109 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Hello!",
+      "description": "I'm Reece Calvin. I'm a data scientist specializing in baseball analytics. I'm currently working with Northeastern Baseball and the Hiroshima Toyo Carp. As a Data Analyst at Hiroshima Toyo Carp, I apply my machine learning and problem-solving skills to help the team optimize its strategy, player development, data engineering, and R&D.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Mark Chain Lineup Simulator",
+        "startDate": "2023",
+        "description": "Created a Markov-based baseball lineup simulator. Takes in both the lineup and the opposing pitcher and simulates the game 1,500 times. Outputs the average runs scored per game. Outperformed betting markets for MLB games in 2023.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/Markov Chain Simulator/lineup.jpg",
+          "images/portfolio/Markov Chain Simulator/markov.jpg"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-pycharm-plain",
+            "name": "Pycharm"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Pitch Grader",
+        "startDate": "2022",
+        "description": "Created a baseball pitch grader. It started as an independent project, but was later used by the Hiroshima Toyo Carp. It uses a neural network to grade pitches based on their movement and velocity. It was used to help decide the starting rotation.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/pitchgrader/p1.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter"
+          },
+          {
+            "class": "devicon-pycharm-plain",
+            "name": "Pycharm"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Bullpen Usage Score",
+        "startDate": "2021",
+        "description": "One of the first projects I was working on with the Huskies. I calculated the leverage index of each situation and used that to determine the optimal bullpen usage. I compared that with the actual bullpen usage and relayed the results to the coaching staff.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/bullpen usage/p1.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Northeastern Univeristy Baseball",
+        "title": "Data Analyst",
+        "years": "09.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Python, Jupyter, PyCharm"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Lineup Simulator",
+          "Pitch Grader",
+          "Stolen Base Thresholds",
+          "Bunt Thresholds",
+          "Bullpen Optimization",
+          "Swing Decisions"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Hiroshima Toyo Carp",
+        "title": "Data Analyst",
+        "years": "07.2023 - present",
         "mainTech": [
-          "Angular 7/8"
+          "Python, Jupyter, PyCharm"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Lineup Simulator",
+            "Pitch Grader",
+            "Stolen Base Thresholds",
+            "Bunt Thresholds",
+            "Bullpen Optimization",
+            "Swing Decisions",
+            "Player Development",
+            "Data Engineering",
+            "R&D"
+
         ]
       }
     ]
